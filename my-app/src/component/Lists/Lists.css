@@ -1,0 +1,65 @@
+.tableprint{
+    border-collapse: collapse;
+    align-items: center;
+    width: 90%;
+}
+
+.tableprint td, .tableprint th, .tableprint tr{
+    border: 1px solid #000000;
+    padding: 15px;
+}
+
+.tableprint th{
+    background-color: aquamarine;
+}
+
+.deleteButton{
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.deleteButton:hover{
+    background-color: aquamarine;
+    border-radius: 19px;
+}
+
+.editButton{
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-left: 69%;
+    margin-bottom: 45px;
+}
+
+.editButton:hover{
+    background-color: aqua;
+}
+
+.datatable{
+    text-align:center;
+    margin-left: 110px;
+    margin-top:40px;
+    margin-bottom: 20px;
+}
+
+.editOption{
+    display: flex;
+    justify-content: center;
+}
+
+.editOption input{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.editOption button{
+    margin-left: 7px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: rgb(179, 235, 235);
+    cursor: pointer;
+}
+
+.editOption button:hover{
+    background-color: rgb(231, 144, 173);
+}

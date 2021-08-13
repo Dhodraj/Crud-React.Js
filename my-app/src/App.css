@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,100&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.addButton{
+    margin-top: 30px;
+    margin-left: 60%;
+    
+}
+
+.addButton button{
+    width: auto;
+    height: auto;
+    font-size: medium;
+    border:2px solid white;
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+}
+.addButton button:hover{
+    background-color: aquamarine;
+}

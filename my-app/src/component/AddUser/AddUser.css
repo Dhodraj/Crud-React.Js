@@ -1,0 +1,59 @@
+.Appinfo{
+    margin-top: 15px;
+    margin-left: 35%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: rgb(182, 218, 229);
+    border: 3px;
+    border-radius: 6px;
+    height: 350px;
+
+}
+
+.Appinfo label{
+    color: black;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+.Appinfo #fname, .Appinfo #lname, .Appinfo #mail{
+    width: 170px;
+    height: 80px!important;
+    border: 3px solid white;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.adduserButton{
+    margin-bottom: 15px;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+.adduserButton:hover{
+    cursor: pointer;
+    background-color: rgb(231, 144, 173);
+}
+
+.popup{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.backButton button{
+    width: 80px;
+    height: 30px;
+    border: 2px solid white;
+    background-color: aqua;
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-left: 47.5%;
+}
+
+
+.backButton button:hover{
+    cursor: pointer;
+    background-color: rgb(231, 144, 173);
+}
