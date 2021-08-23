@@ -1,4 +1,4 @@
-# Crud-React.Js
+# User management system - React.js
 
 Techstack: React.Js , SQL , Node.js , Express.js
 
